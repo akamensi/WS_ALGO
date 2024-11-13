@@ -1,0 +1,22 @@
+ALGORITHM PERMUTATION
+VAR 
+   x, y , z , a : INTERGER 
+
+BEGIN 
+
+   Write("enter x")
+   Read(x)
+   Write("enter y")
+   Read(y)
+   Write("enter z")
+   Read(z)
+
+  a = x 
+  x = y 
+  y = z 
+  z = a 
+
+   Write("le valeur de x est", x)
+   Write("le valeur de y est", y)
+   Write("le valeur de z est", z)
+END 
